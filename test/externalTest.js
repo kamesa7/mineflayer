@@ -30,7 +30,7 @@ const download = require('minecraft-wrap').download
 const MC_SERVER_PATH = path.join(__dirname, 'server')
 
 const { firstVersion, lastVersion } = require('./common/parallel')
-mineflayer.testedVersions.forEach((supportedVersion, i) => {
+mineflayer.supportedVersions.forEach((supportedVersion, i) => {
   if (!(i >= firstVersion && i <= lastVersion)) {
     return
   }
@@ -97,7 +97,6 @@ mineflayer.testedVersions.forEach((supportedVersion, i) => {
     })
 
     beforeEach((done) => {
-      console.log('reset state')
       bot.test.resetState(done)
     })
 
