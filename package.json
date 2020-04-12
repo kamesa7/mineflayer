@@ -20,8 +20,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "minecraft-data": "^2.41.0",
-    "minecraft-protocol": "^1.10.0",
+    "minecraft-data": "^2.44.0",
+    "minecraft-protocol": "^1.11.0",
     "mojangson": "^0.2.4",
     "prismarine-biome": "^1.0.1",
     "prismarine-block": "^1.1.1",
@@ -37,8 +37,8 @@
   "devDependencies": {
     "doctoc": "^1.0.0",
     "minecraft-wrap": "^1.2.1",
-    "mocha": "^6.2.2",
-    "require-self": "^0.2.1",
-    "standard": "^14.0.1"
+    "mocha": "^6.2.3",
+    "require-self": "^0.2.3",
+    "standard": "^14.3.3"
   }
 }
