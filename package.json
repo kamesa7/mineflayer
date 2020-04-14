@@ -25,7 +25,7 @@
     "mojangson": "^0.2.4",
     "prismarine-biome": "^1.0.1",
     "prismarine-block": "^1.1.1",
-    "prismarine-chunk": "git://github.com/kamesa7/prismarine-chunk.git",
+    "prismarine-chunk": "^1.13.0",
     "prismarine-entity": "^0.2.0",
     "prismarine-item": "^1.1.1",
     "prismarine-recipe": "^1.0.1",
